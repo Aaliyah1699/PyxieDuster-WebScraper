@@ -2,10 +2,13 @@ from urllib.parse import urlencode
 import scrapy
 from PyxieDuster.items import PyxieItem
 
+<<<<<<< HEAD
 # from dotenv import load_dotenv
 # import os
 # load_dotenv()
 
+=======
+>>>>>>> 84f49f0ba3bed0eacf3e88a8d6b87ed1b1de1d85
 API_KEY = "3ea2f243-69be-4945-ab3b-1f4acfee8662"
 
 
