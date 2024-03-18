@@ -1,8 +1,5 @@
 import mysql.connector
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
 
 # Define your item pipelines here
 #
@@ -72,8 +69,8 @@ class SaveToMySQLPipeline:
         self.conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password=os.getenv("PASSWORD"),
-            database=os.getenv("DATABASE_NAME"),
+            password=Destany1999,
+            database=pyxie_books,
         )
 
         # Create cursor to execute commands

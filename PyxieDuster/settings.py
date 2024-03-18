@@ -16,13 +16,8 @@ FEEDS = {
     "data.json": {"format": "json"},
 }
 
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
 # * Add api key from https://scrapeops.io
-SCRAPEOPS_API_KEY = os.getenv("SCRAPEOPS_API_KEY")
+SCRAPEOPS_API_KEY = "3ea2f243-69be-4945-ab3b-1f4acfee8662"
 SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = "https://headers.scrapeops.io/v1/user-agents"
 SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
 SCRAPEOPS_NUM_RESULTS = 50
