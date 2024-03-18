@@ -1,11 +1,12 @@
 from urllib.parse import urlencode
 import scrapy
 from PyxieDuster.items import PyxieItem
-from dotenv import load_dotenv
-import os
-load_dotenv()
 
-API_KEY = os.getenv("SCRAPEOPS_API_KEY")
+# from dotenv import load_dotenv
+# import os
+# load_dotenv()
+
+API_KEY = "3ea2f243-69be-4945-ab3b-1f4acfee8662"
 
 
 def get_proxy_url(url):
