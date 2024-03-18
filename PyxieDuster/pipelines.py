@@ -1,8 +1,8 @@
 import mysql.connector
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 
-load_dotenv()
+# load_dotenv()
 
 # Define your item pipelines here
 #
