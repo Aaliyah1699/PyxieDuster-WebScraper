@@ -2,7 +2,8 @@ from urllib.parse import urlencode
 import scrapy
 from PyxieDuster.items import PyxieItem
 
-API_KEY = "3ea2f243-69be-4945-ab3b-1f4acfee8662"
+# Api key from scrapeops.io
+API_KEY = ""
 
 
 def get_proxy_url(url):
